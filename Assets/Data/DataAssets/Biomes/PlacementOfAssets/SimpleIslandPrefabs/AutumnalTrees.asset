@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: AutumnalTrees
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 2
+    start: 0.3
+    end: 0.43
+    density: 0.64
+    assets:
+    - prefab: {fileID: 1236200801817110, guid: 6a40c7166707bf645bccc83b1457e3aa, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1
+    - prefab: {fileID: 1892206325252254, guid: e945761fa19cbbf4bb23a04f8b370413, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1
+    - prefab: {fileID: 1615122069699254, guid: 036d13501c31bdc4e83ae181d48e791a, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1
+    - prefab: {fileID: 1793184727012702, guid: c6198d6cdecfd874d9f001fe0e6b6125, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1
+    - prefab: {fileID: 1398166628164346, guid: b03d28488d9aa914ab7e645b6366560e, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1
+    - prefab: {fileID: 1401217736278936, guid: 287bd6ec116c3f948b7b6ecb05eb0d06, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.1

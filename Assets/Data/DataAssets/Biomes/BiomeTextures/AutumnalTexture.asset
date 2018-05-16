@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d05e500cb769c241b15e25e687eecf7, type: 3}
+  m_Name: AutumnalTexture
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.20588236, g: 0.26125747, b: 0.8235294, a: 0}
+    startHeight: 0
+    tintStrength: 0
+    blendStrength: 0
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.3602941, g: 0.8941176, b: 1, a: 0}
+    startHeight: 0.12
+    tintStrength: 0.66
+    blendStrength: 0.17
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 6e29121be827fa2488d2ed5f89adb923, type: 3}
+    tint: {r: 0.89955854, g: 0.9117647, b: 0.6905277, a: 0}
+    startHeight: 0.243
+    tintStrength: 0
+    blendStrength: 0.03
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: d2ee8aea709b51a4fb05b893c4187aa2, type: 3}
+    tint: {r: 0.60294116, g: 0.39900517, b: 0.39900517, a: 0}
+    startHeight: 0.29
+    tintStrength: 0.55
+    blendStrength: 0.059
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: d2ee8aea709b51a4fb05b893c4187aa2, type: 3}
+    tint: {r: 0.8897059, g: 0.72548026, b: 0.039251715, a: 0}
+    startHeight: 0.33
+    tintStrength: 0.45
+    blendStrength: 0.06
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: a4f45bee36b824644b48826b183495ba, type: 3}
+    tint: {r: 0.44117647, g: 0.37665555, b: 0.10705017, a: 0}
+    startHeight: 0.5
+    tintStrength: 0.5
+    blendStrength: 0.15
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 4d47a6bb064370f4db0c4d9567c2887c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 0}
+    startHeight: 0.79
+    tintStrength: 0
+    blendStrength: 0.08
+    textureScale: 0
+  material: {fileID: 2100000, guid: 8b30f5beb96f3674ba0b320f5fad4781, type: 2}
+  nameID: Autumn

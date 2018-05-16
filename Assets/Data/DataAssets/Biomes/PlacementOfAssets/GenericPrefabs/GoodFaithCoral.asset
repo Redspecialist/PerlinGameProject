@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: GoodFaithCoral
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 0
+    start: 0.11
+    end: 0.2
+    density: 0.64
+    assets:
+    - prefab: {fileID: 1618726510405620, guid: 74809a57d3770444e91d4a8c4e23ac1b, type: 2}
+      placementRadius: 0
+      minScaling: 0
+      maxScaling: 3
+      probability: 0.44
+    - prefab: {fileID: 1000011372191006, guid: bcbb569bfc744fb49b176f6482d25923, type: 2}
+      placementRadius: 0
+      minScaling: 2
+      maxScaling: 5
+      probability: 0.32
+    - prefab: {fileID: 1000010001485558, guid: 739d9f4c01c7ec546a44cf12a869afb0, type: 2}
+      placementRadius: 0
+      minScaling: 2
+      maxScaling: 4
+      probability: 0.4
+    - prefab: {fileID: 1294713157731470, guid: 7ce2bde82cd8e3f40b36b31145de89bd, type: 2}
+      placementRadius: 0
+      minScaling: 0
+      maxScaling: 2
+      probability: 0.25
+    - prefab: {fileID: 1000012310189208, guid: d061c59808d66654ba4620a1273247a8, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.49

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: TallCacti
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 2
+    start: 0.29
+    end: 0.5
+    density: 0.48
+    assets:
+    - prefab: {fileID: 1850594802051414, guid: 0d3bbe06217783e44a4c469c13be8196, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.27
+    - prefab: {fileID: 1421111544425708, guid: 6094aba8c07b7394d8e399c3da996dd8, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.31
+    - prefab: {fileID: 1769314003114768, guid: 24d160026276cd54bb512666c20468db, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.2
+    - prefab: {fileID: 1509345911729064, guid: 1e5bcaccc5aaff143882e22131f91085, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.24

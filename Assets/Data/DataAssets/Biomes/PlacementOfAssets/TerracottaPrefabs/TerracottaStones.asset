@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: TerracottaStones
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 1
+    start: 0.28
+    end: 0.6
+    density: 0.65
+    assets:
+    - prefab: {fileID: 1000010009679556, guid: 3692fa6616a39854b9d13a4fda4df646, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000012354817398, guid: 358f462350eef6d47a7f9758c11b9ed7, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000011372191006, guid: bcbb569bfc744fb49b176f6482d25923, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000012484229150, guid: 88441ddb7ce5ae84d9165b6749de03f9, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000012938296930, guid: 55c2932a1e52b6c4f982d80c84e395e5, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000014048104668, guid: a3394794a013ba84080a606c8c6d8252, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000014199413136, guid: b0d0ecadc3c04a641a027529e3972171, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000012280693560, guid: ad0e7c26ce9e58e42addd1b4f234da29, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000010001485558, guid: 739d9f4c01c7ec546a44cf12a869afb0, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000010120164540, guid: 7988ed18829568f488d417ace93909c8, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000013119757220, guid: af12248dc2229784aa7a8ad3fe8b9f07, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1000012310189208, guid: d061c59808d66654ba4620a1273247a8, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1331319434729578, guid: 826d3c79f8b7a1945b284b78dafdf89d, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5
+    - prefab: {fileID: 1092450563364594, guid: a72020d1fb4a1804582c4e2e0b9aaefb, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.5
+    - prefab: {fileID: 1661312669217614, guid: 524eec05a68f27c46868cc66471c3c32, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 5
+      probability: 0.5

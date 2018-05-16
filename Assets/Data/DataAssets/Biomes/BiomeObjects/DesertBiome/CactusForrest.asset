@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f93986460abefa469115e877be685cf, type: 3}
+  m_Name: CactusForrest
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  overallDensity: 0.435
+  texture: {fileID: 11400000, guid: 2ad2ccc0d69298d47b54077ef4298879, type: 2}
+  terrain: {fileID: 11400000, guid: 516361e24c5ed144d94b3ad291e02f27, type: 2}
+  biomeGroups:
+  - {fileID: 11400000, guid: e04179e329c132e4db9a758b35a1c655, type: 2}
+  - {fileID: 11400000, guid: e31d0fc430aee8c468d3a311bc1168f4, type: 2}
+  - {fileID: 11400000, guid: eb6a0a89006751246b449ceadc8fe4c8, type: 2}
+  - {fileID: 11400000, guid: bd1acdff939f7ca4b95f995fbc44661b, type: 2}
+  - {fileID: 11400000, guid: 920a30d2b823bf5408aec92e5f537db9, type: 2}
+  - {fileID: 11400000, guid: 479c80600e194814c8a9cf7840521cc1, type: 2}
+  - {fileID: 11400000, guid: 7b871d780f616424b9fc7bc56d307ef3, type: 2}
+  - {fileID: 11400000, guid: 6871e87f97fee0f40bb1b4639b50f6fc, type: 2}

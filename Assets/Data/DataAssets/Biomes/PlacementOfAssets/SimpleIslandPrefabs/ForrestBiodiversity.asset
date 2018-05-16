@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: ForrestBiodiversity
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 0
+    start: 0.3
+    end: 0.4
+    density: 0.61
+    assets:
+    - prefab: {fileID: 1602138881292456, guid: 74811eb3d5397384c92b257afb8ee8b0, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 3
+      probability: 0.2
+    - prefab: {fileID: 1462508908175708, guid: 3a77551eae7ff11479f82d31972e2106, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 3
+      probability: 0.2
+    - prefab: {fileID: 1844778934368082, guid: 1d3eef837121ada4287ae3d3b04e1627, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 3
+      probability: 0.5
+    - prefab: {fileID: 1564043452399384, guid: fc11d4250601c604e9f593990d906d8a, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 3
+      probability: 1

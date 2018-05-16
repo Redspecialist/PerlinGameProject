@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: Stoney
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 0
+    start: 0.29
+    end: 0.48
+    density: 0.68
+    assets:
+    - prefab: {fileID: 1720683576108240, guid: c1f3d86dcf2309048af95cdd6f552c38, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.21
+    - prefab: {fileID: 1401127214141532, guid: bcdb590a0aeb9d547be4113eb6f85ab3, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.43
+    - prefab: {fileID: 1618726510405620, guid: 74809a57d3770444e91d4a8c4e23ac1b, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.39
+    - prefab: {fileID: 1090873191447214, guid: 7607949f9ca2db94c9f8b9e813a8755b, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.68
+    - prefab: {fileID: 1294713157731470, guid: 7ce2bde82cd8e3f40b36b31145de89bd, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 2
+      probability: 0.49

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: SmallestCacti
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 0
+    start: 0.31
+    end: 0.56
+    density: 0.234
+    assets:
+    - prefab: {fileID: 110538, guid: 25b7310f6077068478cd7e4defadc440, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.3
+    - prefab: {fileID: 116776, guid: ce2edcf8e844ea74592c4f1822aa7183, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.3
+    - prefab: {fileID: 190948, guid: dfc274fbae6ef6d4d8854f32c682bff0, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.3
+    - prefab: {fileID: 176108, guid: 31dd104a271d83040993424dbcc17d12, type: 2}
+      placementRadius: 0
+      minScaling: 3
+      maxScaling: 7
+      probability: 0.3

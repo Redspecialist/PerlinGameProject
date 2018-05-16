@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa186d3c8a77a654d836d3ae00fc8f31, type: 3}
+  m_Name: DefaultTerrain
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  uniformScale: 1
+  mapHeightMultiplier: 200
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.0006599426
+      value: -0.014175415
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.13391985
+      value: 0.099622205
+      inSlope: 0.050082535
+      outSlope: 0.050082535
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.3349932
+      value: 0.20604007
+      inSlope: 0.022110341
+      outSlope: 0.022110341
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.45525244
+      value: 0.2465192
+      inSlope: -0.16923372
+      outSlope: -0.16923372
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.66781944
+      value: 0.32374913
+      inSlope: 0.35828498
+      outSlope: 0.35828498
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.96470433
+      value: 0.794612
+      inSlope: 0.23703797
+      outSlope: 0.23703797
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0733521
+      value: 0.9247935
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  useFallOff: 1

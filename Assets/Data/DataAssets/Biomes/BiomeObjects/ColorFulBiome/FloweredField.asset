@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f93986460abefa469115e877be685cf, type: 3}
+  m_Name: FloweredField
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  overallDensity: 0.306
+  texture: {fileID: 11400000, guid: a551e991f58b38244be7be9e6246e9e5, type: 2}
+  terrain: {fileID: 11400000, guid: 516361e24c5ed144d94b3ad291e02f27, type: 2}
+  biomeGroups:
+  - {fileID: 11400000, guid: e04179e329c132e4db9a758b35a1c655, type: 2}
+  - {fileID: 11400000, guid: e31d0fc430aee8c468d3a311bc1168f4, type: 2}
+  - {fileID: 11400000, guid: eb6a0a89006751246b449ceadc8fe4c8, type: 2}
+  - {fileID: 11400000, guid: faaba0e3410bdd74b9e08555f1efa5f0, type: 2}
+  - {fileID: 11400000, guid: ddbb38453188fe64298e868c5b5bfbf1, type: 2}
+  - {fileID: 11400000, guid: 6871e87f97fee0f40bb1b4639b50f6fc, type: 2}

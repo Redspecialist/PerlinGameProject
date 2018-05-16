@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2108210716, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: Sparrow Text
+  m_EditorClassIdentifier: 
+  topLeft: {r: 0.9381398, g: 0.9485294, b: 0.76021844, a: 1}
+  topRight: {r: 0.61764705, g: 0.43128803, b: 0.23161764, a: 1}
+  bottomLeft: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+  bottomRight: {r: 0.2647059, g: 0.2647059, b: 0.2647059, a: 1}

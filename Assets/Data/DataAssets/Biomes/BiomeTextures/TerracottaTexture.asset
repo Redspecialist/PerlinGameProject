@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d05e500cb769c241b15e25e687eecf7, type: 3}
+  m_Name: TerracottaTexture
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.20588236, g: 0.26125747, b: 0.8235294, a: 0}
+    startHeight: 0
+    tintStrength: 0
+    blendStrength: 0
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.3602941, g: 0.8941176, b: 1, a: 0}
+    startHeight: 0.12
+    tintStrength: 0.66
+    blendStrength: 0.17
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 6e29121be827fa2488d2ed5f89adb923, type: 3}
+    tint: {r: 0.89955854, g: 0.9117647, b: 0.6905277, a: 0}
+    startHeight: 0.243
+    tintStrength: 0
+    blendStrength: 0.031
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 8b68b8e8a5bc35c438add923f4cf2b83, type: 3}
+    tint: {r: 0.9117647, g: 0.8598884, b: 0.6905277, a: 0}
+    startHeight: 0.29
+    tintStrength: 0.55
+    blendStrength: 0.02
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 8b68b8e8a5bc35c438add923f4cf2b83, type: 3}
+    tint: {r: 0.7205882, g: 0.42095214, b: 0.19074395, a: 0}
+    startHeight: 0.43
+    tintStrength: 0.68
+    blendStrength: 0.1
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 8b68b8e8a5bc35c438add923f4cf2b83, type: 3}
+    tint: {r: 0.47794116, g: 0.27721557, b: 0.122999564, a: 0}
+    startHeight: 0.51
+    tintStrength: 0.62
+    blendStrength: 0.13
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 8b68b8e8a5bc35c438add923f4cf2b83, type: 3}
+    tint: {r: 0.72794116, g: 0.5479492, b: 0.16057524, a: 0}
+    startHeight: 0.68
+    tintStrength: 0.73
+    blendStrength: 0.07
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 4d47a6bb064370f4db0c4d9567c2887c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 0}
+    startHeight: 0.76
+    tintStrength: 0.42
+    blendStrength: 0.07
+    textureScale: 100
+  material: {fileID: 2100000, guid: 5a598b89a103854489d6fda7f2479a43, type: 2}
+  nameID: Terracotta

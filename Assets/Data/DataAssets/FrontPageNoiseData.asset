@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1f1e0b949c3de4584a168b873cb686, type: 3}
+  m_Name: FrontPageNoiseData
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  noiseScale: 150
+  octaves: 8
+  persistence: 0.259
+  lacurnarity: 3
+  seed: 405
+  offset: {x: 0, y: 0}
+  turn: 30.75
+  adjustmentCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2572023
+      value: 0.08667574
+      inSlope: 0.5068366
+      outSlope: 0.5068366
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

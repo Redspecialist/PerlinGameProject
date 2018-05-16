@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b0028073f8f2d4c43925f4e90800fece
+timeCreated: 1526350168
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - terrainNoise: {fileID: 11400000, guid: 1e865999c93d1b248bd804fa1e68a274, type: 2}
+  - biomeNoise: {instanceID: 0}
+  - biodiversityNoise: {instanceID: 0}
+  - islandNoise: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

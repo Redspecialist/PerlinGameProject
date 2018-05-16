@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d05e500cb769c241b15e25e687eecf7, type: 3}
+  m_Name: StoneTexture
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.20588236, g: 0.26125747, b: 0.8235294, a: 0}
+    startHeight: 0
+    tintStrength: 0
+    blendStrength: 0
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 65bb700d80b77934baba34c3a12cc9bb, type: 3}
+    tint: {r: 0.3602941, g: 0.8941176, b: 1, a: 0}
+    startHeight: 0.12
+    tintStrength: 0.66
+    blendStrength: 0.17
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 6e29121be827fa2488d2ed5f89adb923, type: 3}
+    tint: {r: 0.9088056, g: 0.9264706, b: 0.60629326, a: 0}
+    startHeight: 0.243
+    tintStrength: 0.3
+    blendStrength: 0.031
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 8b68b8e8a5bc35c438add923f4cf2b83, type: 3}
+    tint: {r: 0.60937834, g: 0.61764705, b: 0.4677768, a: 0}
+    startHeight: 0.305
+    tintStrength: 0.309
+    blendStrength: 0.078
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: a4f45bee36b824644b48826b183495ba, type: 3}
+    tint: {r: 0.58823526, g: 0.58680344, b: 0.53633213, a: 0}
+    startHeight: 0.685
+    tintStrength: 0.341
+    blendStrength: 0.156
+    textureScale: 100
+  - texture: {fileID: 2800000, guid: 4d47a6bb064370f4db0c4d9567c2887c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 0}
+    startHeight: 0.752
+    tintStrength: 0.2
+    blendStrength: 0.098
+    textureScale: 100
+  material: {fileID: 2100000, guid: 69e087794f0c62b4ab3c756151dac991, type: 2}
+  nameID: Stone

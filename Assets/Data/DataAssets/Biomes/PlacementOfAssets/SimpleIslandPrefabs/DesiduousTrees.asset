@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: DesiduousTrees
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 2
+    start: 0.29
+    end: 0.43
+    density: 0.82
+    assets:
+    - prefab: {fileID: 158490, guid: 94244dc2afd56d2419c6874cc0c2e4bb, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 184014, guid: 5f92d876d5154c942a3e901c82f9549c, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 130244, guid: e9afe91546f721f4c9d392f065439d72, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 182834, guid: 6d017ef7b425061488e6627106852aff, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 1685988538364950, guid: 8fea01d50d0c8b8419118a4c2a8b92e9, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 1980281659210030, guid: 898f5d1c1650bfa4e8f887661cf3e3f1, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 1358705208659668, guid: 8cd157496dc6d2948b1ad6f46b29e577, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1
+    - prefab: {fileID: 1795054624924034, guid: 5388c9b046b1fff49b004fc5911ba8c0, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.1

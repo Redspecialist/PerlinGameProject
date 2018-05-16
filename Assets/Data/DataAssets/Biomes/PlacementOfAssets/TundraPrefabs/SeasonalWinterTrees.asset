@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: SeasonalWinterTrees
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 2
+    start: 0.28
+    end: 0.49
+    density: 0.49
+    assets:
+    - prefab: {fileID: 1816920646092754, guid: 0e857d91d5dc46247b1eee42be1d0b2e, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1198710459564716, guid: 586769e4d4aed054cbf9692a009da5e3, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1946031061038764, guid: 9b04a427715acbf4a80d8f49f1e08ba3, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1479770351998956, guid: 6806b240305f2b841b7905fda5911818, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1607378263559030, guid: 13dc1d19381d1bf4bb9649666521a9fa, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1648284556553528, guid: 637dde59863d9d34e84152de19d4b11b, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1915920880095800, guid: d605b0fbda51d0c48a9a3cc733d77a55, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1229233185492408, guid: 42b1ae36c6ebdba4ea075c2c6f89f3bb, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1402253490645544, guid: 4e7ac9a8a21e0a743b5f121cf6f62b98, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2
+    - prefab: {fileID: 1359356649718860, guid: 4d7daff5053e3ca48ac1cf5bda852ef2, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 6
+      probability: 0.2

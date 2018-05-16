@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1f1e0b949c3de4584a168b873cb686, type: 3}
+  m_Name: FalloffNoise
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  noiseScale: 513.6
+  octaves: 6
+  persistence: 0.1
+  lacurnarity: 1.52
+  seed: -213321066
+  offset: {x: 0, y: 0}
+  turn: 15
+  adjustmentCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: -0.0062561035
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.46434057
+      value: -0.021994099
+      inSlope: -0.019714976
+      outSlope: -0.019714976
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.7821118
+      value: 1.0020514
+      inSlope: 0.062323067
+      outSlope: 0.062323067
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0006104
+      value: 1.0355034
+      inSlope: -0.06669871
+      outSlope: -0.06669871
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

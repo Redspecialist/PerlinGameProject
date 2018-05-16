@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29fe37f23ca10e42954342122bfdb73, type: 3}
+  m_Name: ForrestFloor
+  m_EditorClassIdentifier: 
+  representative:
+    claustraphobia: 1
+    start: 0.28
+    end: 0.47
+    density: 0.48
+    assets:
+    - prefab: {fileID: 1918446729804682, guid: 5dc49b4ce3f47f74ba1686456e78948f, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1586131283221758, guid: abb6475111328914786c4be69a6c7341, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1964002415563706, guid: 75f48d6aa085cf74bab608906a2e4fc5, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1407845474838226, guid: bffa70321efa05c45ad573663c306eb9, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1638144922904556, guid: 73e0dd40e7122ef4198a089a1ebf293e, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1141445423831980, guid: 2391ffa28e9f5ff498180b520dd28e56, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
+    - prefab: {fileID: 1069136848622222, guid: f7ab13d9b1b916f4990b32fb83fc2d88, type: 2}
+      placementRadius: 0
+      minScaling: 1
+      maxScaling: 4
+      probability: 0.5
