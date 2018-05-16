@@ -24,6 +24,8 @@ public class MMOCharacterController : MonoBehaviour {
 
     public float rotationSpeed;
     public float lift;
+    public float maxHeight;
+    
 
     public float climbSpeed;
 
@@ -125,8 +127,13 @@ public class MMOCharacterController : MonoBehaviour {
             {
                 vSpeed /= 4f;
             }
-
             movement.y += vSpeed;
+            if (character.position.y >= maxHeight)
+            {   
+                movement.y = Mathf.Min(movement.y, 0);
+            }
+
+            
             controller.Move(movement * Time.deltaTime);
 
         }

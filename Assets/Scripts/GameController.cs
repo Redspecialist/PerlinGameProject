@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour {
     public Text loseText;
     public float FadeTime;
     public float maxAlpha;
+    public float seaLevel;
 
     // Use this for initialization
     void Start () {
@@ -22,6 +23,11 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            moveControlls.KillCharacter();
+            StartCoroutine(fadeOutReturn());
+        }
         
         float angle = player.rotation.eulerAngles.x;
 
@@ -29,7 +35,19 @@ public class GameController : MonoBehaviour {
         {
             angle = (360 - angle) * -1;
         }
-        switchBoard.SetFloat("Angle", angle * -1);
+
+        if(player.position.y <= seaLevel)
+        {
+            switchBoard.SetTrigger("Collision");
+            moveControlls.KillCharacter();
+            StartCoroutine(fadeOutDeath());
+        }
+        else
+        {
+            
+            switchBoard.SetFloat("Angle", angle * -1);
+        }
+        
 
 	}
 
@@ -61,7 +79,7 @@ public class GameController : MonoBehaviour {
 
         float deathAlphaStart = dC.a;
         float deathRedStart = dC.r;
-        
+
 
         while (time < FadeTime)
         {
@@ -78,9 +96,36 @@ public class GameController : MonoBehaviour {
             yield return new WaitForSecondsRealtime(.01f);
 
         }
-        //rb.isKinematic = false;
-        //SceneManager.LoadScene(0);
-        Application.Quit();
+        Cursor.visible = true;
+        SceneManager.LoadScene(0);
+        
+
+    }
+    public IEnumerator fadeOutReturn()
+    {
+        Color c = darkScreen.GetComponent<Image>().color;
+        float time = 0;
+
+        yield return new WaitForSecondsRealtime(.01f);
+
+        float start = Time.unscaledTime;
+        
+
+
+        while (time < FadeTime)
+        {
+
+            time = Time.unscaledTime - start;
+            float alpha = time / FadeTime * maxAlpha;
+            c.a = alpha;
+           
+            darkScreen.GetComponent<Image>().color = c;
+            yield return new WaitForSecondsRealtime(.01f);
+
+        }
+        Cursor.visible = true;
+        SceneManager.LoadScene(0);
+        
 
     }
 }

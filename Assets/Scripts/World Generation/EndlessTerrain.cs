@@ -44,6 +44,8 @@ public class EndlessTerrain : MonoBehaviour {
         chunkSize = mapGenerator.mapChunkSize - 1;
         maxViewDist = detailLevels[detailLevels.Length - 1].visibleDistThreshold;
         chunksVisibleInViewDist = Mathf.RoundToInt(maxViewDist / chunkSize);
+        terrainChunkDictionary.Clear();
+        visibleTerrainChunks.Clear();
         UpdateVisibleChunks();
     }
 
